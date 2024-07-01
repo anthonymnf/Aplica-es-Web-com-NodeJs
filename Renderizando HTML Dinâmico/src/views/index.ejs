@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title><%= title %></title>
+  </head>
+  <body>
+    <h1>HTML dinâmico usando EJS</h1>
+    <p><%= message %></p>
+    <div>
+      <p>Tabuada</p>
+      <% for( let index = 0; index < 11; index++ ) { %>
+      <ul>
+        <% for( let j = 0; j < 11; j++ ) { %>
+        <p><%= index %> * <%= j %> = <%= index * j %></p>
+        <% } %>
+      </ul>
+      <br />
+      <% } %>
+    </div>
+  </body>
+</html>
