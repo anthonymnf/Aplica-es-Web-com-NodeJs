@@ -1,0 +1,7 @@
+Crie uma aplicação Node.js usando Express e EJS para gerenciamento de coleções de listas de tarefas. A aplicação deverá ter as seguintes funcionalidades:
+(X) Uma página inicial de apresentação
+(X) Uma página exibindo todas as listas de tarefas
+(X) Criação de novas listas de tarefas (cada lista agrupa suas próprias tarefas)
+(X) Uma página para exibir as tarefas de uma lista específica
+(X) Uma forma de adicionar uma nova tarefa a uma lista
+(X) Formas de marcar como concluída e desfazer como concluida uma tarefa (botão, checkbox, etc)
